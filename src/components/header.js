@@ -42,8 +42,8 @@ const headerAppender = (selector) => {
   //
 
   const header = Header("I","JUST", "CAN'T");
-
-  selector.appendChild(header);
+  const element = document.querySelector(selector);
+  element.appendChild(header);
 
 }
 
